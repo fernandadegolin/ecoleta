@@ -1,0 +1,89 @@
+body{
+    background-color: #ffffff;
+}
+
+body::after{
+    content: "";
+    position: absolute;
+    background-color: var(--input-color);
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 21rem;
+    z-index: -1;
+}
+
+#page-search-results{
+    width: 90%;
+    height: 100vh;
+    max-width: 1100px;
+    margin: 0 auto;
+
+}
+
+    #page-search-results header{
+        margin-top: 3em;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #page-search-results header a{
+        color: var(--title-color);
+        font-weight: bold;
+        align-items: center;
+        display: flex;
+    }
+
+    #page-search-results header a span{
+        background-image: url(../assets/arrow-left.svg);
+        height: 1.25em;
+        width: 1.25em;
+        margin-right: 1em;
+        display: flex;
+    }
+
+
+main{
+    margin-top: 2em;
+}
+
+    main .cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1.5em;
+    }
+
+    main h4{
+        font-weight: normal;
+        font-family: Roboto;
+        margin-bottom: 2em;
+    }
+
+    main .card img{
+        width: 100%;
+        height: auto;
+        border-radius: .5em .5em 0 0;
+        object-fit: cover;
+    }
+
+    main .card h1{
+        font-size: 2.25em;
+        line-height: 2.5625em;
+        color: var(--title-color);
+    }
+
+    main .card h3{
+        margin: .5em 0;
+        font-weight: 500;
+        font-size: 1.5em;
+        color: var(--primary-color);    
+    }
+
+    main .card p{
+        font-size: 1em;
+        line-height: 1.5em;
+        color: #6C6C80;
+    }
+

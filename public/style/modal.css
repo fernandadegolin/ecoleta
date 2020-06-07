@@ -1,0 +1,89 @@
+#modal{
+    background: #0E0A14ef;
+    
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 400ms;
+}
+
+#modal.hide{
+    display: none;
+}
+
+    #modal .content{
+        color: #ffffff;
+        width: 26.25em;
+    }
+
+    #modal .header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+        #modal .header a {
+            background-image: url("../assets/x.svg");
+            width: 20px;
+            height: 20px;
+            display: flex;
+            font-size: 0.01px;
+        }
+
+        #modal .header h1{
+            color: #ffffff;
+            font-size: 2.25em;
+            line-height: 2.625em;
+        }
+    
+    #modal form label{
+        font-size: 0.875em;
+        line-height: 1em;
+        display: block;
+        margin-bottom: .5em;
+    }
+
+    #modal form .field{
+        display: flex;
+    }
+
+    #modal form input{
+        flex: 1;
+        background-color: var(--input-color);
+        border: 0;
+        border-radius: .5em 0 0 .5em;
+        padding: 1em 1.5em;
+        font-size: 1em;
+        color: #6c6c80;
+    }
+
+    #modal form button{
+        width: 4.5em;
+        height: 4.5em;
+        background-color: var(--primary-color);
+        border: 0;
+        border-radius: 0 .5em .5em 0;
+    }
+
+    #modal form button:hover{
+        background-color: #2FB86E;
+    }
+
+
+/* PAGINA POINT-CREATED */
+
+    #modal.point .content{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+    }
+
+    #modal.point h1{
+        color: #ffffff;
+        text-align: center;
+        margin-top: 1em;
+    }

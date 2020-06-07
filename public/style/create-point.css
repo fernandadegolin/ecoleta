@@ -1,0 +1,157 @@
+#page-create-point{
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+    #page-create-point header{
+        margin-top: 3em;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #page-create-point header a{
+        color: var(--title-color);
+        font-weight: bold;
+        align-items: center;
+        display: flex;
+    }
+
+    #page-create-point header a span{
+        background-image: url(../assets/arrow-left.svg);
+        height: 1.25em;
+        width: 1.25em;
+        margin-right: 1em;
+        display: flex;
+    }
+
+form{
+    background-color: white;
+    margin: 5em auto;
+    padding: 4em;
+    border-radius: .5em;
+    max-width: 730px;
+}
+
+    form h1{
+        font-size: 2.25em;
+    }
+
+    form fieldset{
+        margin-top: 4em;
+        border: 0;
+    }
+
+    form legend{
+        margin-bottom: 2.5em;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+        form legend h2{
+            font-size: 1.5em;
+        }
+
+        form legend span{
+            color: var(--title-color);     
+            font-size: 0.875em;       
+        }
+    
+    form .field{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1.5em;
+    }
+
+    form .field-group{
+        display: flex;
+    }
+
+    form .field input, 
+    form .field select{
+        border: 0;
+        background: #F0F0F5;
+        border-radius: 0.5em;
+        padding: 1em 1.5em;
+        font-size: 1em;
+    }
+
+    form .field select{
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    }
+
+    form label{
+        font-size: 0.875em;
+        margin-bottom: 0.5em;
+    }
+
+    form .field-group .field + .field{
+        margin-left: 1.5em;
+    }
+
+    form button{
+        width: 16.25em;
+        height: 3.5em;
+        border: 0;
+        border-radius: .5em;
+        background: var(--primary-color);
+        text-align: center;
+        color: #FFFFFF;
+        font-weight: bold;
+        font-size: 1em;
+        margin-top: 2.5em;
+        transition: background-color 400ms;
+    }
+
+        form button:hover{
+            background: #2FB86E;
+        }
+
+.items-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+
+}
+
+    .items-grid li{
+        background-color: #f5f5f5;
+        list-style: none;
+        border: 0.125em solid #f5f5f5;
+        border-radius: .5em;
+        height: 11.25em;
+        padding: 2em 1.5em 1em;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .items-grid li spam{
+        flex: 1;
+        display: flex;
+        align-items: center;
+        color: var(--title-color);
+        margin-top: 0.75em;
+    }
+
+    .items-grid li.selected{
+        background-color: #e1faec;
+        border: 0.125em #43cb79 solid;
+    }
+
+    .items-grid li img,
+    .items-grid li spam{
+        pointer-events: none;
+    }
+
