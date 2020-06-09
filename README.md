@@ -19,17 +19,17 @@ In the environment week, we developed a project called Ecoleta. A waste collecti
 
 This project was developed with the following technologies:
 
-- ✔️ CSS
+- CSS
 
-- ✔️ HTML
+- HTML
 
-- ✔️ JavaScript
+- JavaScript
 
-- ✔️ NodeJS
+- NodeJS
 
-- ✔️ Git Bash
+- Git Bash
 
-- ✔️ SQLite
+- SQLite
 
 Made with by Fernanda Degolin </br>
 [LinkedIn](https://www.linkedin.com/in/fernandadegolin/)
