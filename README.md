@@ -20,13 +20,9 @@ In the environment week, we developed a project called Ecoleta. A waste collecti
 This project was developed with the following technologies:
 
 - CSS
-
 - HTML
-
 - JavaScript
-
 - NodeJS
-
 - Git Bash
 
 - SQLite
