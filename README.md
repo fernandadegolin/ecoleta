@@ -28,4 +28,5 @@ This project was developed with the following technologies:
 - SQLite
 
 Made with by Fernanda Degolin </br>
+<br>
 [LinkedIn](https://www.linkedin.com/in/fernandadegolin/)
