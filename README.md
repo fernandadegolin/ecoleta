@@ -15,7 +15,7 @@ In the environment week, we developed a project called Ecoleta. A waste collecti
 <hr />
 
 
-## 🚀 Technologies
+🚀 Technologies
 
 This project was developed with the following technologies:
 
