@@ -1,6 +1,6 @@
 <h1 align="center">
-<br>
-Ecoleta
+
+# Ecoleta
 </h1>
 
 
