@@ -1,5 +1,4 @@
 // ================= CADASTRO DE ESTADO E CIDADE ================= //
-
 function populateUFs() {
 
     const ufSelect = document.querySelector('select[name=uf]')
