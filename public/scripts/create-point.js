@@ -5,9 +5,7 @@ function populateUFs() {
 
     fetch('https://servicodados.ibge.gov.br/api/v1/localidades/estados')
         .then(resposta => (resposta.json())  //Varias opções que podem ser escritas
-
             .then(states => {
-
                 for (const state of states) {
                     ufSelect.innerHTML += `<option value="${state.id}">${state.nome}</option>`
                 }
