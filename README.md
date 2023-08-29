@@ -12,7 +12,7 @@
 <p align="center">
 In the environment week, we developed a project called Ecoleta. A waste collection market, in which entities can register their address and what they recycle.</p>
 
-<hr />
+<hr /> 
 
 
 🚀 Technologies
